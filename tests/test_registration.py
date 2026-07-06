@@ -1,7 +1,7 @@
 import pytest
 from selenium import webdriver
 from selenium.webdriver import chrome, ChromeOptions
-from Demo_Tricentis_Framework.pages.registration_page import RegistrationPage
+from pages.registration_page import RegistrationPage
 options = ChromeOptions()
 driver = webdriver.Chrome(options=options)
 
